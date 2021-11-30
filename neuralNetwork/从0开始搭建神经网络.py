@@ -83,7 +83,7 @@ if __name__ == "__main__":
     n = neuralNetwork(input_nodes, hidden_nodes, output_nodes, learning_rate)
 
     # 训练神经网络
-    training_data_file = open("mnist_train.csv", 'r')
+    training_data_file = open("mnist_test.csv", 'r')
     training_data_list = training_data_file.readlines()
     training_data_file.close()
 
@@ -96,7 +96,7 @@ if __name__ == "__main__":
         n.train(inputs, targets)"""
 
     # 测试神经网络
-    test_data_file = open("mnist_test.csv", 'r')
+    test_data_file = open("mnist_test_10.csv", 'r')
     test_data_list = test_data_file.readlines()
     test_data_file.close()
     """scorecard = []
