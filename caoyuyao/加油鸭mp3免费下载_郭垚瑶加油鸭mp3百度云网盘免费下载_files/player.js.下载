@@ -1,0 +1,279 @@
+
+
+
+
+  function setMusic ( player,data,autoplay) {
+    // 结果div
+    var resultBox = $('#result')
+    //详情列表
+    var detailList = $('#result').find('.detail .list')
+    //歌词列表，歌词每一行
+    var lyricHtmlList = $('.player_con .lrc'), lyricHtmlItem
+    //当前播放时间
+    var timeNowHtml = $('.currentTime')
+    //播放总时长
+    var timeEndHtml = $('.duration')
+    //进度条
+    var progressHtml = $('.progress_con')
+    //进度条的圆
+    var circleHtml = $('.progress_con .circle')
+    //播放器封面
+    var coverHtml = resultBox.find('.player_con .cover')
+    //歌曲名
+    var nameHtml = resultBox.find('.player_con .player .name')
+    //开关按钮
+    var bt_ctr = resultBox.find('.player_con .player .bt_ctr')
+    //播放按钮
+    var bt_play = resultBox.find('.player_con .player .bt_play')
+    //暂停按钮
+    var bt_pause = resultBox.find('.player_con .player .bt_pause')
+//歌词列表
+    var lyricList = []
+    var lyricCur = 0
+    var playingTime = 0
+// html
+
+//进度条操作
+    var circleState = false
+    setCtrClick()
+    player.onplay = function () {
+      checkState()
+    }
+    player.onpause = function () {
+      checkState()
+    }
+    player.oncanplay = function () {
+      checkState()
+      setCtrClick()
+      setTimeCtr()
+    }
+    player.onended  = function () {
+    player.currentTime =0
+      player.play()
+    console.log('end')
+    }
+    player.ontimeupdate = null
+    player.ontimeupdate = function () {
+      var time = player.currentTime
+      // 调整歌词位置
+      var now = 0
+      for (var i = 0; i < lyricList.length; i++) {
+        if (lyricList[i].duration <= time) {
+          if (i < lyricList.length - 2 && time < lyricList[i + 1].duration) {
+            now = i
+          } else if (i == lyricList.length - 1) {
+            now = i
+          }
+        }
+
+        if (now !== lyricCur && now !== 0) {
+          lyricCur = now
+          setLyricState()
+        }
+      }
+      //调整进度条位置
+      var parseIntTime = parseInt(time)
+      if (playingTime !== parseIntTime) {
+        playingTime = parseIntTime
+        setTimeCtr()
+      }
+    }
+    getLrcData()
+
+    function getLrcData () {
+      // setResult(data)
+      player.src = data.url
+      nameHtml.html('<span class="m">'+data.title+'</span>' + '<span class="s">' + data.author + '</span>')
+      coverHtml.css({
+        'background': '#000 url(' + data.pic + ') center top no-repeat',
+        '-webkit-background-size': 'cover',
+        'background-size': 'cover'
+      })
+      checkState()
+      lyricCur = 0
+      setLyricList(data.lrc)
+      if (autoplay) {
+        try {
+          player.play()
+        } catch (e) {
+
+        }
+      }
+
+    }
+
+    setDetail()
+
+    function setDetail () {
+      detailList.find('.link .title').html(data.link)
+      detailList.find('.link .handle').unbind('click').click(function () {
+        window.open(data.link, "_blank")
+      })
+      detailList.find('.url .title').html(data.url)
+      detailList.find('.url .handle').unbind('click').click(function () {
+        window.open(data.url, "_blank")
+      })
+      detailList.find('.lrc .title').html(data.lrc)
+      detailList.find('.lrc .handle').unbind('click').click(function () {
+        downloadLrc(data.title, data.lrc)
+      })
+      detailList.find('.id .title').html(data.music_id)
+      detailList.find('.music .title').html(data.title)
+      detailList.find('.singer .title').html(data.author)
+    }
+
+    function downloadLrc (filename, text) {
+      var pom = document.createElement('a');
+      pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+      pom.setAttribute('download', filename);
+      if (document.createEvent) {
+        var event = document.createEvent('MouseEvents');
+        event.initEvent('click', true, true);
+        pom.dispatchEvent(event);
+      } else {
+        pom.click();
+      }
+    }
+
+//检测并切换播放状态
+    function checkState () {
+      if (player.paused) {
+        lyricHtmlList.removeClass('playing_list')
+        bt_ctr.hide()
+        bt_play.show()
+      } else {
+        lyricHtmlList.addClass('playing_list')
+        bt_ctr.hide()
+        bt_pause.show()
+      }
+    }
+
+// 设置播放时间及播放进度
+    function setTimeCtr () {
+      timeEndHtml.html(timeTranslate(parseInt(player.duration)))
+      timeNowHtml.html(timeTranslate(parseInt(player.currentTime)))
+      var left = parseInt((player.currentTime / player.duration) * 100)
+
+      try {
+        // console.log('left',left)
+      }catch (e) {
+        console.log(e)
+      }
+      progressHtml.find('.bar').css('background', 'linear-gradient(to right,#31c27c ' + left + '%, #ccc 0)')
+      circleHtml.css('left', left + '%')
+    }
+
+// 设置播放、暂停、进度条等点击效果
+    function setCtrClick () {
+      bt_play.unbind('click').click(function () {
+        if (player.paused) {
+          player.play()
+        }
+      })
+      bt_pause.unbind('click').click(function () {
+        if (!player.paused) {
+          player.pause()
+        }
+      })
+      progressHtml.unbind('click').click(function (e) {
+        player.currentTime = (e.offsetX / progressHtml.width()) * player.duration
+      })
+
+      circleHtml.on({
+        'click': function (e) {
+          window.event ? window.event.cancelBubble = true : e.stopPropagation();
+        },
+        'touchstart': function (e) {
+          // window.event? window.event.cancelBubble = true : e.stopPropagation();
+          console.log('touchstart')
+          circleState = true
+        },
+        'touchmove': function (e) {
+          // window.event? window.event.cancelBubble = true : e.stopPropagation();
+          if (circleState) {
+            var position = e.originalEvent.targetTouches[0].pageX - parseInt(progressHtml.offset().left)
+            var left = Math.max(0, Math.min(position, progressHtml.width()))
+            circleHtml.css('left', left + 'px')
+            progressHtml.find('.bar').css('background', 'linear-gradient(to right,#31c27c ' + left + 'px, #ccc 0)')
+            timeNowHtml.html(timeTranslate(parseInt(player.duration * (left / progressHtml.width()))))
+          }
+
+        },
+        'touchend': function (e) {
+          // window.event? window.event.cancelBubble = true : e.stopPropagation();
+          var p = Math.max(0, Math.min((circleHtml.position().left + (circleHtml.width() / 2)) / progressHtml.width(), 1))
+          circleState = false
+          player.currentTime = (p) * player.duration
+        }
+      })
+    }
+
+
+// 设置歌词列表状态（当前播放行、当前位置）
+    function setLyricState () {
+      lyricHtmlItem.removeClass('on')
+      var item = lyricHtmlItem.eq(lyricCur)
+      // .resultBox.find('.result .lrc .title span').html(item.html())
+      item.addClass('on')
+      if (lyricCur > 1) {
+        var top = (item.offset().top - lyricHtmlList.offset().top) - (lyricHtmlItem.eq(1).offset().top - lyricHtmlList.offset().top)
+        lyricHtmlList.animate({scrollTop: top}, 400);
+        // lyricHtmlList.stop().animation({scrollTop:top})
+        // lyricHtmlList.css('top','-'+top+'px')
+      } else {
+        // lyricHtmlList.scrollTop(0)
+        // lyricHtmlList.stop().animation({scrollTop:0})
+      }
+    }
+
+// 添加歌词
+    function setLyricList (lrc) {
+      console.log(lrc)
+      if(lrc){
+        lrc = lrc.replace(/\r|\n/g, "")
+        var list = lrc.split('[')
+        lyricList = []
+        var html = ''
+        for (var i = 1; i < list.length; i++) {
+          var item = list[i]
+          var itemList = item.split(']');
+          if (itemList[1].replace(/ |\/r|\/n/g, "").length > 0) {
+            var duration = timeTranslate(itemList[0], 1)
+            lyricList.push({
+              time: itemList[0],
+              duration,
+              text: itemList[1]
+            })
+            html += '<div class="item "  >' + itemList[1] + '</div>'
+          }
+        }
+        html = html.length > 0 ? html : '<div class="item "  >暂无歌词</div>'
+        lyricHtmlList.html( html)
+        lyricHtmlItem = lyricHtmlList.find('.item')
+        lyricHtmlItem.eq(0).addClass('on')
+      }else{
+        lyricHtmlList.html( '<div class="item ">暂无歌词</div>')
+      }
+
+      // .resultBox.find('.result .lrc .title span').html(lyricHtmlItem.eq(0).html())
+    }
+
+//时间转换type==1分转秒（00:00）无type 秒转时（00:00:00）
+    function timeTranslate (time, type) {
+      var result
+      if (type === 1) {
+        result = (Number(time.split(':')[0]) * 60) + Number(time.split(':')[1])
+      } else {
+        time = Number(time)
+        var hour = parseInt(time / 3600)
+        var minute = parseInt((time % 3600) / 60)
+        var second = parseInt((time % 3600) % 60)
+        result = hour > 0 ? (hour < 10 ? '0' + hour : hour) + ':' : ''
+        result += (minute < 10 ? '0' + minute : minute) + ':'
+        result += second < 10 ? '0' + second : second
+      }
+      return result
+    }
+
+
+  }

@@ -75,3 +75,4 @@ while(1)
     rr = r(i);
 Bx = U0*I0*aa*aa/4/r/r/r*3*sin(theta)*cos(theta);
 By = U0*I0*aa*aa/4/r/r/r*(2-3*sin(theta)*sin(theta));
+
