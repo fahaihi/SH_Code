@@ -1,0 +1,27 @@
+// MT2041 三角形个数
+// 要点：递推公式
+#include<bits/stdc++.h>
+
+using namespace std;
+int f(int n){
+    // 构造递归出口
+     if(n==1) return 0;
+     if(n==2) return 1;
+     return (n-1)*n/2 + f(n-2);
+}
+int main( )
+{
+    int n, N;
+    cin >> N;
+    while(N--){
+        cin >> n;
+        int sum1 = 0; int sum2 = 0;
+        // 计算头朝上的三角个数
+        for(int i=1; i<=n; i++){
+            sum1 += (n-i+1)*(n-i+2)/2;
+        }
+        sum2 = f(n);
+        cout << sum1 + sum2 << endl;
+    }
+    return 0;
+}
