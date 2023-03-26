@@ -11,15 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e04d14-e277-466a-8e1f-ce7ee7403ecd" name="默认更改列表" comment="211220">
-      <change afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/san_jiao_xing_ge_shu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/shu_ju_liu_zhong_wei_shu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/three_to_one.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/yi_shui_zao_hai.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/yin_bi_ta.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SH_Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SH_Code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/6_MT2033_碰碰车.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/7_MT2058_最大的平均值.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,6 +199,8 @@
       <workItem from="1647673374648" duration="1727000" />
       <workItem from="1677746680074" duration="3061000" />
       <workItem from="1677983036176" duration="6781000" />
+      <workItem from="1678280032948" duration="2200000" />
+      <workItem from="1679234412816" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1638265839824</created>
@@ -249,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640006003279</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20230308-V1">
+      <created>1678280276718</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678280276718</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +305,8 @@
     <MESSAGE value="2" />
     <MESSAGE value="2112201" />
     <MESSAGE value="211220" />
-    <option name="LAST_COMMIT_MESSAGE" value="211220" />
+    <MESSAGE value="20230308-V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230308-V1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2171" y="0" key="#Deployment" timestamp="1677747020178">
@@ -322,6 +325,10 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2074" y="0" key="SettingsEditor/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1677746943936" />
+    <state x="2171" y="54" key="Vcs.Push.Dialog.v2" timestamp="1678280284950">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2171" y="54" key="Vcs.Push.Dialog.v2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1678280284950" />
     <state x="2492" y="324" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1677746814998">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
