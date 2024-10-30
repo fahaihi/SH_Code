@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,8 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e04d14-e277-466a-8e1f-ce7ee7403ecd" name="默认更改列表" comment="211220">
-      <change afterPath="$PROJECT_DIR$/leetcode/6_MT2033_碰碰车.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/7_MT2058_最大的平均值.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fahaihi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fahaihi/SH_Code.git&quot;,
+    &quot;accountId&quot;: &quot;90dd30a1-3a55-4cc3-a4ca-ab290515ac05&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="21dKCZ5xDPzWo2AAgn2EjMMhZDO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="添加" />
@@ -38,18 +54,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.chengshi.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "leetcode.id",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Python.chengshi">
     <configuration name="歌曲截取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SH_Code" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -72,6 +94,7 @@
     </configuration>
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SH_Code" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -94,6 +117,7 @@
     </configuration>
     <configuration name="chengshi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SH_Code" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -116,6 +140,7 @@
     </configuration>
     <configuration name="easyDFT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SH_Code" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -138,6 +163,7 @@
     </configuration>
     <configuration name="grade" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SH_Code" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -160,10 +186,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.1" />
+      <item itemvalue="Python.歌曲截取" />
       <item itemvalue="Python.chengshi" />
       <item itemvalue="Python.easyDFT" />
       <item itemvalue="Python.grade" />
-      <item itemvalue="Python.歌曲截取" />
     </list>
     <recent_temporary>
       <list>
@@ -175,6 +201,15 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -201,6 +236,8 @@
       <workItem from="1677983036176" duration="6781000" />
       <workItem from="1678280032948" duration="2200000" />
       <workItem from="1679234412816" duration="1212000" />
+      <workItem from="1730285086928" duration="18000" />
+      <workItem from="1730285123242" duration="6138000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1638265839824</created>
@@ -255,15 +292,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="1">
           <value>
             <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -282,6 +323,7 @@
                   </entry>
                 </map>
               </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
@@ -292,12 +334,6 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -307,40 +343,6 @@
     <MESSAGE value="211220" />
     <MESSAGE value="20230308-V1" />
     <option name="LAST_COMMIT_MESSAGE" value="20230308-V1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2171" y="0" key="#Deployment" timestamp="1677747020178">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="2171" y="0" key="#Deployment/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1677747020178" />
-    <state x="2321" y="81" width="1165" height="906" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1677746961641">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="2321" y="81" width="1165" height="906" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1677746961641" />
-    <state x="2499" y="93" key="FileChooserDialogImpl" timestamp="1677746765088">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="2499" y="93" key="FileChooserDialogImpl/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1677746765088" />
-    <state x="2074" y="0" key="SettingsEditor" timestamp="1677746943936">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="2074" y="0" key="SettingsEditor/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1677746943936" />
-    <state x="2171" y="54" key="Vcs.Push.Dialog.v2" timestamp="1678280284950">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="2171" y="54" key="Vcs.Push.Dialog.v2/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1678280284950" />
-    <state x="2492" y="324" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1677746814998">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="2492" y="324" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1677746814998" />
-    <state x="1920" y="0" width="1001" height="1032" key="find.popup" timestamp="1677746860127">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="1920" y="0" width="1001" height="1032" key="find.popup/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1677746860127" />
-    <state x="2708" y="53" key="ftp.server.browser" timestamp="1677747017579">
-      <screen x="1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="2708" y="53" key="ftp.server.browser/0.0.1280.672/1920.0.1920.1032@1920.0.1920.1032" timestamp="1677747017579" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SH_Code$xhn20211209.coverage" NAME="xhn20211209 Coverage Results" MODIFIED="1639559126045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xiangxiang" />
