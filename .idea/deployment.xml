@@ -1,35 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sunh@10.137.144.91:9002 password (2)">
     <serverData>
-      <paths name="jd_sunhui@210.36.16.170:8125">
+      <paths name="sunh@10.137.144.91:9002 password">
         <serverdata>
           <mappings>
-            <mapping deploy="/SH_code" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/sunh/SH_Code" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="jd_sunhui@210.36.16.170:8125 key">
+      <paths name="sunh@10.137.144.91:9002 password (2)">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="jd_sunhui@210.36.16.170:8125 key (1)">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="sunh@10.137.144.91:9033">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/sunh/SH_Code" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
