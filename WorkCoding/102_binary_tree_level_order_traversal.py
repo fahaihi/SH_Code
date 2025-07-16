@@ -1,3 +1,6 @@
+from collections import deque
+
+
 class Node:
     def __init__(self, val):
         self.val = val
@@ -7,16 +10,19 @@ class Node:
 class Solution:
     def levelOrder(self, root):
         ans = []
-        cur = [root]
+        #cur = [root]
+        cur = deque([root])
         while cur:
             nxt = []
             tmp = []
-            for node in cur:
+            #for node in cur:
+            for _ in range(len(cur)):
+                node = cur.popleft()
                 tmp.append(node.val)
-                if node.left: nxt.append(node.left)
-                if node.right: nxt.append(node.right)
+                if node.left: cur.append(node.left)#nxt.append(node.left)
+                if node.right: cur.append(node.right)#nxt.append(node.right)
             ans.append(tmp)
-            cur = nxt
+            #cur = nxt
         return ans
 
 # 构造树结构
