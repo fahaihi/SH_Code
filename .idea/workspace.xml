@@ -13,10 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e04d14-e277-466a-8e1f-ce7ee7403ecd" name="默认更改列表" comment="multi-head attention">
-      <change afterPath="$PROJECT_DIR$/WorkCoding/146_lru-cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorkCoding/206_reverse_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorkCoding/3_longest-substring-without-repeating-characters.py" afterDir="false" />
+    <list default="true" id="d9e04d14-e277-466a-8e1f-ce7ee7403ecd" name="默认更改列表" comment="updating code">
+      <change afterPath="$PROJECT_DIR$/WorkCoding/102_binary_tree_level_order_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkCoding/15_3sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkCoding/167_two_sum_ii_input_array_is_sorted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkCoding/1_2sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkCoding/215_kth_largest_element_in_an_array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +63,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.146_lru-cache.executor": "Run",
+    "Python.15_3sum.executor": "Run",
+    "Python.167_two_sum_ii_input_array_is_sorted.executor": "Run",
+    "Python.1_2sum.executor": "Run",
     "Python.206_reverse_linked_list.executor": "Run",
     "Python.3_longest-substring-without-repeating-characters.executor": "Run",
     "Python.Attetion_Learning.executor": "Run",
@@ -79,8 +84,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.206_reverse_linked_list">
-    <configuration name="146_lru-cache" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.102_binary_tree_level_order_traversal">
+    <configuration name="102_binary_tree_level_order_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SH_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,7 +99,76 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/146_lru-cache.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/102_binary_tree_level_order_traversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="15_3sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SH_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkCoding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/15_3sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="167_two_sum_ii_input_array_is_sorted" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SH_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkCoding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/167_two_sum_ii_input_array_is_sorted.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_2sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SH_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkCoding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/1_2sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,89 +200,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_longest-substring-without-repeating-characters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SH_Code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkCoding" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/3_longest-substring-without-repeating-characters.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Multi_Head_Attention" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SH_Code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkCoding" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/Multi_Head_Attention.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Self_Attention_Learning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SH_Code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkCoding" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\N2409364J\Desktop\GitHub\SH_Code\WorkCoding\Self_Attention_Learning.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.146_lru-cache" />
+      <item itemvalue="Python.102_binary_tree_level_order_traversal" />
+      <item itemvalue="Python.15_3sum" />
+      <item itemvalue="Python.167_two_sum_ii_input_array_is_sorted" />
+      <item itemvalue="Python.1_2sum" />
       <item itemvalue="Python.206_reverse_linked_list" />
-      <item itemvalue="Python.3_longest-substring-without-repeating-characters" />
-      <item itemvalue="Python.Multi_Head_Attention" />
-      <item itemvalue="Python.Self_Attention_Learning" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.102_binary_tree_level_order_traversal" />
+        <item itemvalue="Python.15_3sum" />
+        <item itemvalue="Python.167_two_sum_ii_input_array_is_sorted" />
+        <item itemvalue="Python.1_2sum" />
         <item itemvalue="Python.206_reverse_linked_list" />
-        <item itemvalue="Python.146_lru-cache" />
-        <item itemvalue="Python.3_longest-substring-without-repeating-characters" />
-        <item itemvalue="Python.Multi_Head_Attention" />
-        <item itemvalue="Python.Self_Attention_Learning" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +256,7 @@
       <workItem from="1730285123242" duration="6138000" />
       <workItem from="1752483358132" duration="78000" />
       <workItem from="1752483468400" duration="2296000" />
-      <workItem from="1752485811581" duration="23868000" />
+      <workItem from="1752485811581" duration="32721000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1638265839824</created>
@@ -326,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752558822885</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updating code">
+      <option name="closed" value="true" />
+      <created>1752641118044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752641118044</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,13 +393,15 @@
     <MESSAGE value="2112201" />
     <MESSAGE value="211220" />
     <MESSAGE value="20230308-V1" />
-    <MESSAGE value="updating code" />
     <MESSAGE value="multi-head attention" />
-    <option name="LAST_COMMIT_MESSAGE" value="multi-head attention" />
+    <MESSAGE value="updating code" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SH_Code$chengshi.coverage" NAME="chengshi Coverage Results" MODIFIED="1647675104298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chenshi" />
     <SUITE FILE_PATH="coverage/SH_Code$grade.coverage" NAME="grade Coverage Results" MODIFIED="1640160108388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xiangxiang" />
+    <SUITE FILE_PATH="coverage/SH_Code$167_two_sum_ii_input_array_is_sorted.coverage" NAME="167_two_sum_ii_input_array_is_sorted 覆盖结果" MODIFIED="1752643207562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
+    <SUITE FILE_PATH="coverage/SH_Code$15_3sum.coverage" NAME="15_3sum 覆盖结果" MODIFIED="1752645958938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$Attetion_Learning.coverage" NAME="Self_Attention_Learning 覆盖结果" MODIFIED="1752557281959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$.coverage" NAME="歌曲截取 Coverage Results" MODIFIED="1641717339896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caoyuyao/加油鸭mp3免费下载_郭垚瑶加油鸭mp3百度云网盘免费下载_files" />
     <SUITE FILE_PATH="coverage/SH_Code$3_longest_substring_without_repeating_characters.coverage" NAME="3_longest-substring-without-repeating-characters 覆盖结果" MODIFIED="1752560136642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
@@ -396,6 +411,7 @@
     <SUITE FILE_PATH="coverage/SH_Code$146_lru_cache.coverage" NAME="146_lru-cache 覆盖结果" MODIFIED="1752637539302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$1.coverage" NAME="1 Coverage Results" MODIFIED="1641718421603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caoyuyao" />
     <SUITE FILE_PATH="coverage/SH_Code$206_reverse_linked_list.coverage" NAME="206_reverse_linked_list 覆盖结果" MODIFIED="1752641037325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
+    <SUITE FILE_PATH="coverage/SH_Code$1_2sum.coverage" NAME="1_2sum 覆盖结果" MODIFIED="1752642713342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$Multi_Head_Attention.coverage" NAME="Multi_Head_Attention 覆盖结果" MODIFIED="1752558462399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
   </component>
 </project>
