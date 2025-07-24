@@ -13,14 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e04d14-e277-466a-8e1f-ce7ee7403ecd" name="默认更改列表" comment="2025-07-17 coding exercise">
-      <change afterPath="$PROJECT_DIR$/WorkCoding/104_maximum_depth_of_binary_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorkCoding/235_lowest_common_ancestor_of_a_binary_search_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorkCoding/236_lowest_common_ancestor_of_a_binary_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorkCoding/25_reverse_nodes_in_k_group.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorkCoding/42_trapping_rain_water.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorkCoding/46_permutations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorkCoding/92_reverse_linked_list_ii.py" afterDir="false" />
+    <list default="true" id="d9e04d14-e277-466a-8e1f-ce7ee7403ecd" name="默认更改列表" comment="2025-07-21 coding exercise">
+      <change afterPath="$PROJECT_DIR$/WorkCoding/1143_longest_common_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkCoding/300_zui_chang_shang_sheng_zi_xu_lie_dong_tai_gui_hua_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkCoding/31_next_permutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkCoding/72_edit_distance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +63,7 @@
   "keyToString": {
     "Python.102_binary_tree_level_order_traversal.executor": "Run",
     "Python.104_maximum_depth_of_binary_tree.executor": "Run",
+    "Python.1143_longest_common_subsequence.executor": "Run",
     "Python.121_best_time_to_buy_and_sell_stock.executor": "Run",
     "Python.146_lru-cache.executor": "Run",
     "Python.153_find_minimum_in_rotated_sorted_array.executor": "Run",
@@ -78,6 +76,8 @@
     "Python.235_lowest_common_ancestor_of_a_binary_search_tree.executor": "Run",
     "Python.236_lowest_common_ancestor_of_a_binary_tree.executor": "Run",
     "Python.25_reverse_nodes_in_k_group.executor": "Run",
+    "Python.300_zui_chang_shang_sheng_zi_xu_lie_dong_tai_gui_hua_2.executor": "Run",
+    "Python.31_next_permutation.executor": "Run",
     "Python.33_search_in_rotated_sorted_array.executor": "Run",
     "Python.3_longest-substring-without-repeating-characters.executor": "Run",
     "Python.42_trapping_rain_water.executor": "Run",
@@ -85,6 +85,7 @@
     "Python.53_maximum_subarray.executor": "Run",
     "Python.54_spiral_matrix.executor": "Run",
     "Python.5_longest_palindromic_substring.executor": "Run",
+    "Python.72_edit_distance.executor": "Run",
     "Python.92_reverse_linked_list_ii.executor": "Run",
     "Python.Attetion_Learning.executor": "Run",
     "Python.Multi_Head_Attention.executor": "Run",
@@ -92,7 +93,7 @@
     "Python.chengshi.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/N2409364J/Desktop/GitHub/fahaihi.github.io",
+    "last_opened_file_path": "C:/Users/N2409364J/Desktop/GitHub/AgentGC",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,8 +103,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.46_permutations">
-    <configuration name="104_maximum_depth_of_binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.72_edit_distance">
+    <configuration name="1143_longest_common_subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SH_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,7 +118,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/104_maximum_depth_of_binary_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/1143_longest_common_subsequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="235_lowest_common_ancestor_of_a_binary_search_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="300_zui_chang_shang_sheng_zi_xu_lie_dong_tai_gui_hua_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SH_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +141,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/235_lowest_common_ancestor_of_a_binary_search_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/300_zui_chang_shang_sheng_zi_xu_lie_dong_tai_gui_hua_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="236_lowest_common_ancestor_of_a_binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="31_next_permutation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SH_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,30 +164,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/236_lowest_common_ancestor_of_a_binary_tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="25_reverse_nodes_in_k_group" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SH_Code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkCoding" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/25_reverse_nodes_in_k_group.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/31_next_permutation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,20 +196,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="72_edit_distance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SH_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkCoding" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkCoding/72_edit_distance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.104_maximum_depth_of_binary_tree" />
-      <item itemvalue="Python.235_lowest_common_ancestor_of_a_binary_search_tree" />
-      <item itemvalue="Python.236_lowest_common_ancestor_of_a_binary_tree" />
-      <item itemvalue="Python.25_reverse_nodes_in_k_group" />
+      <item itemvalue="Python.1143_longest_common_subsequence" />
+      <item itemvalue="Python.300_zui_chang_shang_sheng_zi_xu_lie_dong_tai_gui_hua_2" />
+      <item itemvalue="Python.31_next_permutation" />
       <item itemvalue="Python.46_permutations" />
+      <item itemvalue="Python.72_edit_distance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.72_edit_distance" />
+        <item itemvalue="Python.1143_longest_common_subsequence" />
+        <item itemvalue="Python.300_zui_chang_shang_sheng_zi_xu_lie_dong_tai_gui_hua_2" />
+        <item itemvalue="Python.31_next_permutation" />
         <item itemvalue="Python.46_permutations" />
-        <item itemvalue="Python.104_maximum_depth_of_binary_tree" />
-        <item itemvalue="Python.235_lowest_common_ancestor_of_a_binary_search_tree" />
-        <item itemvalue="Python.236_lowest_common_ancestor_of_a_binary_tree" />
-        <item itemvalue="Python.25_reverse_nodes_in_k_group" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +275,7 @@
       <workItem from="1730285123242" duration="6138000" />
       <workItem from="1752483358132" duration="78000" />
       <workItem from="1752483468400" duration="2296000" />
-      <workItem from="1752485811581" duration="70911000" />
+      <workItem from="1752485811581" duration="81478000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1638265839824</created>
@@ -381,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752755206563</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2025-07-21 coding exercise">
+      <option name="closed" value="true" />
+      <created>1753156086532</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753156086532</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +447,8 @@
     <MESSAGE value="multi-head attention" />
     <MESSAGE value="updating code" />
     <MESSAGE value="2025-07-17 coding exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025-07-17 coding exercise" />
+    <MESSAGE value="2025-07-21 coding exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025-07-21 coding exercise" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SH_Code$chengshi.coverage" NAME="chengshi Coverage Results" MODIFIED="1647675104298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chenshi" />
@@ -450,9 +460,11 @@
     <SUITE FILE_PATH="coverage/SH_Code$0.coverage" NAME="从0开始搭建神经网络 Coverage Results" MODIFIED="1638266038843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neuralNetwork" />
     <SUITE FILE_PATH="coverage/SH_Code$104_maximum_depth_of_binary_tree.coverage" NAME="104_maximum_depth_of_binary_tree 覆盖结果" MODIFIED="1752996432081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$1.coverage" NAME="1 Coverage Results" MODIFIED="1641718421603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caoyuyao" />
+    <SUITE FILE_PATH="coverage/SH_Code$1143_longest_common_subsequence.coverage" NAME="1143_longest_common_subsequence 覆盖结果" MODIFIED="1753269667502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$206_reverse_linked_list.coverage" NAME="206_reverse_linked_list 覆盖结果" MODIFIED="1752641037325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$1_2sum.coverage" NAME="1_2sum 覆盖结果" MODIFIED="1752642713342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$33_search_in_rotated_sorted_array.coverage" NAME="33_search_in_rotated_sorted_array 覆盖结果" MODIFIED="1752725789509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
+    <SUITE FILE_PATH="coverage/SH_Code$31_next_permutation.coverage" NAME="31_next_permutation 覆盖结果" MODIFIED="1753157983610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$grade.coverage" NAME="grade Coverage Results" MODIFIED="1640160108388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xiangxiang" />
     <SUITE FILE_PATH="coverage/SH_Code$102_binary_tree_level_order_traversal.coverage" NAME="102_binary_tree_level_order_traversal 覆盖结果" MODIFIED="1752668052387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$5_longest_palindromic_substring.coverage" NAME="5_longest_palindromic_substring 覆盖结果" MODIFIED="1752753589624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
@@ -461,6 +473,7 @@
     <SUITE FILE_PATH="coverage/SH_Code$200_number_of_islands.coverage" NAME="200_number_of_islands 覆盖结果" MODIFIED="1752718827544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$235_lowest_common_ancestor_of_a_binary_search_tree.coverage" NAME="235_lowest_common_ancestor_of_a_binary_search_tree 覆盖结果" MODIFIED="1752985266281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$Attetion_Learning.coverage" NAME="Self_Attention_Learning 覆盖结果" MODIFIED="1752557281959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
+    <SUITE FILE_PATH="coverage/SH_Code$72_edit_distance.coverage" NAME="72_edit_distance 覆盖结果" MODIFIED="1753324622250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$.coverage" NAME="歌曲截取 Coverage Results" MODIFIED="1641717339896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/caoyuyao/加油鸭mp3免费下载_郭垚瑶加油鸭mp3百度云网盘免费下载_files" />
     <SUITE FILE_PATH="coverage/SH_Code$xhn20211209.coverage" NAME="xhn20211209 Coverage Results" MODIFIED="1639559126045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xiangxiang" />
     <SUITE FILE_PATH="coverage/SH_Code$236_lowest_common_ancestor_of_a_binary_tree.coverage" NAME="236_lowest_common_ancestor_of_a_binary_tree 覆盖结果" MODIFIED="1752984230783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
@@ -471,6 +484,7 @@
     <SUITE FILE_PATH="coverage/SH_Code$92_reverse_linked_list_ii.coverage" NAME="92_reverse_linked_list_ii 覆盖结果" MODIFIED="1752981057240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$Multi_Head_Attention.coverage" NAME="Multi_Head_Attention 覆盖结果" MODIFIED="1752558462399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$54_spiral_matrix.coverage" NAME="54_spiral_matrix 覆盖结果" MODIFIED="1752734349665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
+    <SUITE FILE_PATH="coverage/SH_Code$300_zui_chang_shang_sheng_zi_xu_lie_dong_tai_gui_hua_2.coverage" NAME="300_zui_chang_shang_sheng_zi_xu_lie_dong_tai_gui_hua_2 覆盖结果" MODIFIED="1753263742531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
     <SUITE FILE_PATH="coverage/SH_Code$121_best_time_to_buy_and_sell_stock.coverage" NAME="121_best_time_to_buy_and_sell_stock 覆盖结果" MODIFIED="1752727355718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WorkCoding" />
   </component>
 </project>
